@@ -125,6 +125,7 @@ class Cropper extends InputWidget
         if (!isset(\Yii::$app->get('i18n')->translations['cropper*'])) {
             \Yii::$app->get('i18n')->translations['cropper*'] = [
                 'class' => 'yii\i18n\PhpMessageSource',
+                'sourceLanguage' => 'en-US',
                 'basePath' => __DIR__ . '/messages',
             ];
         }

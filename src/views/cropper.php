@@ -80,13 +80,13 @@ if ($cropperOptions['preview'] !== false) {
 if (!empty($name)) {
     $input = Html::tag('div', Html::input('text', $name, $value, [
         'id' => $uniqueId.'-input',
-        'class' => 'hidden'
+        'class' => 'd-none'
     ]), ['id' => $uniqueId, 'class' => '',]);
     $inputId = $uniqueId.'-input';
 } else {
     $input = Html::tag('div', Html::activeTextInput($model, $attribute, [
         'value' => $value,
-        'class' => 'hidden',
+        'class' => 'd-none',
     ]), ['id' => $uniqueId, 'class' => '',]);
     $inputId = Html::getInputId($model, $attribute);
 }
