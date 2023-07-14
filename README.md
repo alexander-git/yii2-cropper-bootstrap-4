@@ -1,4 +1,4 @@
-# yii2-cropper
+# yii2-cropper-bootstrap4
 Yii2 Image Cropper InputWidget
 
 [![Minimum PHP Version](http://img.shields.io/badge/php-%3E%3D%205.4-8892BF.svg)](https://php.net/)
@@ -26,20 +26,21 @@ Installation
 
 The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
 
-Either run
+Add
 
 ```
-php composer.phar require --prefer-dist bilginnet/yii2-cropper "dev-master"
+{
+  "type": "git",
+  "url": "https://github.com/alexander-git/yii2-cropper-bootstrap-4"
+}
+```
+and
+
+```
+"bilginnet/yii2-cropper-bootstrap4": "dev-master"
 ```
 
-or add
-
-```
-"bilginnet/yii2-cropper": "dev-master"
-```
-
-to the require section of your `composer.json` file.
-
+to the repositories section and require section of your composer.json file respectively.
 
 Usage
 -----
