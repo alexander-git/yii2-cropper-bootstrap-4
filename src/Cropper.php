@@ -1,6 +1,6 @@
 <?php
 
-namespace bilginnet\cropper;
+namespace bilginnet\cropper\bootstrap4;
 
 
 use Yii;

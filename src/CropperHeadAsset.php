@@ -1,6 +1,6 @@
 <?php
 
-namespace bilginnet\cropper;
+namespace bilginnet\cropper\bootstrap4;
 
 
 use yii\web\AssetBundle;
@@ -11,7 +11,7 @@ use yii\web\View;
  */
 class CropperHeadAsset extends AssetBundle
 {
-    public $sourcePath = '@bilginnet/cropper/assets';
+    public $sourcePath = '@bilginnet/cropper/bootstrap4/assets';
     public $jsOptions = ['position' => View::POS_HEAD];
     public $css = [
         'cropper.css',
@@ -21,7 +21,7 @@ class CropperHeadAsset extends AssetBundle
     ];
     public $depends = [
         'yii\web\YiiAsset',
-        'yii\bootstrap\BootstrapAsset',
-        'yii\bootstrap\BootstrapPluginAsset',
+        'yii\bootstrap4\BootstrapAsset',
+        'yii\bootstrap4\BootstrapPluginAsset',
     ];
 }
